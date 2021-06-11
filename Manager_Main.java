@@ -4,7 +4,7 @@
  *  @version 1.0
  * 
  */
-public class Manager_Main {
+public class Manager_Main { 
 
     /**
      *** This is the main method.
