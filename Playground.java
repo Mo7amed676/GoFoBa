@@ -3,13 +3,10 @@
  * @author Mohamed
  * @since  11 june 2021
  *  @version 1.0
+ * this class add information about playground(name, location
+ * size,hours)
  */
 
-/**
- *this class add information about playground(name, location
- * size,hours)
- * @author Eng.Mohamed
- */
 public class Playground {
 
     private String name;
