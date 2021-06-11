@@ -1,56 +1,46 @@
 
+
 /**
- *
- * @author Eng.Mohamed
+ *@author Mohamed
+ * @since  11 june 2021
+ *  @version 1.0
+ * 
+ * class player  extends from user  has one attribute complaint
  */
 public class Player extends User {
 
-    private Complaint complaint;
+   
 
+    /**
+     *
+     * function to display information about playground
+     */
     public void displayPlayground() {
         
     }
-    /*
-    public void requestReservation() {
-    
-//    }*/
-//    public void transferMoney() {
-//        
-//    }
-//
-//    public void showRequestState() {
-//        
-//    }
 
+
+    /**
+     * function to make player join team
+     */
     public void joinTeam() {
         throw new UnsupportedOperationException();
     }
-//
-//    public void CheckAvaliablePlayground() {
-//        throw new UnsupportedOperationException();
-//    }
 
+
+    /**
+     *function to select freeTimeslot
+     */
     public void selectFreeTimeSlot() {
         throw new UnsupportedOperationException();
     }
-//
-//    public void inviteFriend() {
-//        throw new UnsupportedOperationException();
-//    }
-//
-//    public void checkEwallet() {
-//        throw new UnsupportedOperationException();
-//    }
 
+
+    /**
+     * function to calculateTotalPrice
+     */
     public void calculateTotalPrice() {
         throw new UnsupportedOperationException();
     }
-//
-//    public Complaint getComplaint() {
-//        return this.complaint;
-//    }
-//
-//    public void setComplaint(Complaint aComplaint) {
-//        this.complaint = aComplaint;
-//    }
+
 }
