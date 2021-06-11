@@ -13,8 +13,8 @@ public class Playground {
     private String location;
     private double size;
     private int hours;
-    int arr[] = new int[5];
-    int arr2[] = new int[5];
+    int arr[];
+    int arr2[];
 
     /**
      *Parameterized Constructor that set the playground Data
@@ -24,19 +24,20 @@ public class Playground {
      * @param hours  Reservation hours
      */
     public Playground(String name, String location, double size, int hours) {
+        this.arr2 = new int[5];  //5 as example
+        this.arr = new int[5];
         this.name = name;
         this.location = location;
         this.size = size;
         this.hours = hours;
-
-        int arr[] = new int[5];
-        int arr2[] = new int[5];
     }
 
     /**
      * default Constructor
      */
     public Playground() {
+        this.arr2 = new int[5];
+        this.arr = new int[5];
     }
 
     /**
