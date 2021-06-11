@@ -1,56 +1,71 @@
-
 import java.util.Scanner;
-
 /**
- *
- * @author Eng.Mohamed
+ * @author Mohamed
+ * @since  11 june 2021
+ *  @version 1.0
  */
 public class User {
 
     private Profile profile;
-    private Ewallet ewallet;
-
+   
+    /**
+     *defualt constructor
+     */
     public User() {
     }
 
-    public User(Profile profile, Ewallet ewallet) {
+    /**
+     * Receiving object   from profile 
+     * @param profile of user 
+     */
+    public User(Profile profile) {
         this.profile = profile;
-        this.ewallet = ewallet;
+       
     }
 
+    /**
+     *function to get profile of user 
+     * @return profile of user 
+     */
     public Profile getProfile() {
         return this.profile;
     }
 
+    /**
+     * function to set profile of user which Receiving object from profile 
+     * @param aProfile profile of user 
+     */
     public void setProfile(Profile aProfile) {
         this.profile = aProfile;
     }
 
+    /**
+     * function to  create Profile on system 
+     */
     public void createProfile() {
         register();
     }
 
+    /**
+     * 
+     * function register which  register Data of user (name,email,id,password) 
+     * 
+     */
     public void register() {
         Scanner i = new Scanner(System.in);
-        System.out.println("enter name");
+        System.out.println("Enter Your Name");
         String name = i.next();
-        System.out.println("enter phone");
+        System.out.println("Enter Your Phone");
         String phone = i.next();
-        System.out.println("enter email");
+        System.out.println("Enter your Email");
         String email = i.next();
-        System.out.println("enter id");
+        System.out.println("Enter your ID");
         int id = i.nextInt();
-        System.out.println("enter password");
+        System.out.println("Enter Your Password");
         String password = i.next();
         Profile pr=new Profile(name, phone, email, id, password);
         
     }
 
-    public Ewallet getEwallet() {
-        return this.ewallet;
-    }
-
-    public void setEwallet(Ewallet aEwallet) {
-        this.ewallet = aEwallet;
-    }
 }
+
