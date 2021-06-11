@@ -1,6 +1,9 @@
 
 /**
- *
+ * class profile which contain Data of use ( name,phone,email,ID,password)
+ * @author Mohamed
+ * @since  11 june 2021
+ * @version 1.0
  * @author Eng.Mohamed
  */
 public class Profile {
@@ -12,12 +15,12 @@ public class Profile {
     private String password;
 
     /**
-     *
-     * @param name
-     * @param phone
-     * @param email
-     * @param iD
-     * @param password
+     *parameterized constructor that set data of playground
+     * @param name name of user 
+     * @param phone phone of user 
+     * @param email email of user 
+     * @param iD id of user 
+     * @param password password of user 
      */
     public Profile(String name, String phone, String email, int iD, String password) {
         this.name = name;
@@ -28,86 +31,86 @@ public class Profile {
     }
 
     /**
-     *
+     *defualt constructor 
      */
     public Profile() {
     }
 
     /**
-     *
-     * @return
+     * function to get name of user 
+     * @return Name  the value of user 
      */
     public String getName() {
         return this.name;
     }
 
     /**
-     *
-     * @param aName
+     * function to set name of user 
+     * @param aName  name of user
      */
     public void setName(String aName) {
         this.name = aName;
     }
 
     /**
-     *
-     * @return
+     * function to getPhone of user 
+     * @return phone of  user
      */
     public String getPhone() {
         return this.phone;
     }
 
     /**
-     *
-     * @param aPhone
+     * function to set  phone of user 
+     * @param aPhone  phone of user 
      */
     public void setPhone(String aPhone) {
         this.phone = aPhone;
     }
 
     /**
-     *
-     * @return
+     * function to get email of user 
+     * @return email email of user  
      */
     public String getEmail() {
         return this.email;
     }
 
     /**
-     *
-     * @param aEmail
+     * function to set email of user  
+     * @param aEmail email of user 
      */
     public void setEmail(String aEmail) {
         this.email = aEmail;
     }
 
     /**
-     *
-     * @return
+     * function to get id of user 
+     * @return  the value of  id of user 
      */
     public int getID() {
         return this.iD;
     }
 
     /**
-     *
-     * @param aID
+     * function to set id of user 
+     * @param aID id of user 
      */
     public void setID(int aID) {
         this.iD = aID;
     }
 
     /**
-     *
-     * @return
+     * function to get password 
+     * @return  password of user 
      */
     public String getPassword() {
         return this.password;
     }
 
     /**
-     *
-     * @param aPassword
+     *function to set id of user 
+     * @param aPassword Password of user 
      */
     public void setPassword(String aPassword) {
         this.password = aPassword;
