@@ -1,22 +1,49 @@
+
+/**
+ *@author Mohamed
+ * @since  11 june 2021
+ *  @version 1.0
+ * @author Eng.Mohamed
+ *  class Administrator which checkRequest,suspendPlayground,checkPlayground,deletePlayground and activatePlayground
+ * 
+ * 
+ * 
+ */
 public class Administrator_ extends User {
 
-	public void checkRequest() {
+    /**
+     *function to checkRequest
+     */
+    public void checkRequest() {
 		throw new UnsupportedOperationException();
 	}
 
-	public void checkPlayground() {
+    /**
+     *function tocheckPlayground
+     */
+    public void checkPlayground() {
 		throw new UnsupportedOperationException();
 	}
 
-	public void suspendPlayground() {
+    /**
+     *function to suspendPlayground
+     */
+    public void suspendPlayground() {
 		throw new UnsupportedOperationException();
 	}
 
-	public void deletePlayground() {
+    /**
+     *function to delete Playground
+     */
+    public void deletePlayground() {
 		throw new UnsupportedOperationException();
 	}
 
-	public boolean activatePlayground() {
+    /**
+     * function to return activatePlayground( true or false)
+     * @return boolean  
+     */
+    public boolean activatePlayground() {
 		throw new UnsupportedOperationException();
 	}
 }
