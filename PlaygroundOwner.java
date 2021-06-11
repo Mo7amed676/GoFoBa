@@ -47,6 +47,28 @@ public class PlaygroundOwner extends User {
         this.defaultLocation = aDefaultLocation;
     }
 
+    
+    @Override
+    public void createProfile() {
+        register(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void register() {
+        Scanner i = new Scanner(System.in);
+        System.out.println("enter name");
+        String name = i.next();
+        System.out.println("enter phone");
+        String phone = i.next();
+        System.out.println("enter email");
+        String email = i.next();
+        System.out.println("enter id");
+        int id = i.nextInt();
+        System.out.println("enter password");
+        String password = i.next();
+        Profile pr = new Profile(name, phone, email, id, password);
+    }
+
+    
     /**
      * function to addDetailsAboutPlayground
      */
@@ -96,7 +118,7 @@ public class PlaygroundOwner extends User {
             System.out.println("enter avalible slot time as a range to");
             int ava2Time = i.nextInt();
            
-            System.out.println("Do you need add another available time 1-enter yes  2-enter no ?");
+            System.out.println("Do you need add another available time \n1-y(yes) \n 2-n(no) ?");
             char ch=i.next().charAt(0);
             if(ch=='n'){
                 flag=true;
