@@ -106,10 +106,10 @@ public class Playground {
     }
 
     /**
-     *
-     * @param from 
-     * @param to
-     * @param count
+     *function to store avalible hour in playground  
+     * @param from  first paramter ( first hour )
+     * @param to second paramter ( second hour )
+     * @param count counter which Calculates time
      */
     public void storeData(int from, int to, int count) {
         for (int i = 0; i < count; i++) {
