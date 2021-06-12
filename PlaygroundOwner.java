@@ -61,7 +61,11 @@ public class PlaygroundOwner extends User {
 	public void setDefaultLocation(String aDefaultLocation) {
 		this.defaultLocation = aDefaultLocation;
 	}
-
+        /**
+	 * function to create profile for user 
+	 * 
+	 * 
+	 */
 	@Override
 	public void createProfile() {
 		PlaygroundOwner pr = null;
