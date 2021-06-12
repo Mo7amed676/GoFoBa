@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * * @author Mohamed
- * 
+ *
  * @since 12 june 2021
  * @version 1.0
  * @author Eng.Mohamed
