@@ -141,13 +141,13 @@ public class Playground {
 	 */
 	public void storeData(int from, int to, int count) {
 		for (int i = 0; i < count; i++) {
-			arr[i] = from;
-			arr2[i] = to;
+			arr[i] = from; // from as player can reserve from any time 
+			arr2[i] = to; // to another any time like from 10 to 11
 		}
 	}
 
 	/**
-	 * function to display avalible hour in playground
+	 * function to display all avaliable data about playground to cho)se any avaliable slot time that he like
 	 */
 	public void showData() {
 		System.out.print(name);
@@ -160,14 +160,6 @@ public class Playground {
 			System.out.print(" to ");
 			System.out.print(arr2[i] + "\n");
 		}
-	}
-
-
-	/**
-	 *  function availableHours
-	 */
-	public void availableHours() {
-
 	}
 
 	/**
