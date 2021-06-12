@@ -62,8 +62,4 @@ public class Player extends User {
 
 	}
 
-	/**
-	 * function to calculateTotalPrice
-	 */
-
 }
