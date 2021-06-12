@@ -13,8 +13,8 @@ public class Manager_Main {
 	 * 
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		PlaygroundOwner po = new PlaygroundOwner();
+	public static void main(String[] args) { // as instance from these classes to test them
+		PlaygroundOwner po = new PlaygroundOwner(); 
 		Playground gr = new Playground();
 		System.out.println("registering playground owner");
 		po.register(po, gr);
