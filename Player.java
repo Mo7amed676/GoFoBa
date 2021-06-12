@@ -20,23 +20,29 @@ public class Player extends User {
 
 	}
 
+	/**
+	*this function create profile to player as name and phone and so on
+	*/
 	@Override
 	public void createProfile() {
 		Player pl = null;
 		register(pl);
 	}
 
-	public void register(Player pl) {
+    /**
+     * this function call be register as can be invoke in function create profile 
+     */
+	public void register(Player pl) {  // i as input
 		Scanner i = new Scanner(System.in);
-		System.out.println("enter name");
+		System.out.println("enter name of player");
 		String name = i.next();
-		System.out.println("enter phone");
+		System.out.println("enter phone of player");
 		String phone = i.next();
-		System.out.println("enter email");
+		System.out.println("enter email of player");
 		String email = i.next();
-		System.out.println("enter id");
+		System.out.println("enter id of player");
 		int id = i.nextInt();
-		System.out.println("enter password");
+		System.out.println("enter password of player");
 		String password = i.next();
 		Profile pr = new Profile(name, phone, email, id, password);
 
