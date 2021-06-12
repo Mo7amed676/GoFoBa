@@ -1,6 +1,6 @@
 /**
  *@author Mohamed
- * @since  11 june 2021
+ * @since  12 june 2021
  *  @version 1.0
  * 
  * class player  extends from user  has one attribute complaint
@@ -41,12 +41,6 @@ public class Player extends User {
 
 	}
 
-	/**
-	 * function to make player join team
-	 */
-	public void joinTeam() {
-
-	}
 
 	/**
 	 * function to select freeTimeslot
