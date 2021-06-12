@@ -164,14 +164,14 @@ public class Playground {
 
 
 	/**
-	 *   
+	 *  function availableHours
 	 */
 	public void availableHours() {
 
 	}
 
 	/**
-	 * function to display pricePerHour
+	 * function to display pricePerHour for player
 	 */
 	public void pricePerHour() {
 		System.out.println("This play ground costs " + priceprh + "per hour");
