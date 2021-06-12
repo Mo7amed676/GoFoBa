@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class PlaygroundOwner extends User {
 
     private String defaultLocation;
-    private Playground playground;
+    public Playground playground;
 
     /**
      *parameterized constructor that set data of playground 
