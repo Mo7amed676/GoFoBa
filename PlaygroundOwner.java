@@ -3,11 +3,11 @@ import java.util.Scanner;
 /**
  * * @author Mohamed
  * 
- * @since 11 june 2021
+ * @since 12 june 2021
  * @version 1.0
  * @author Eng.Mohamed
  * 
- *         class playgroundowner extends from user has 2 attribute
+ *         class playgroundOwner extends from user has 2 attribute
  *         defaultLocation,playground
  */
 public class PlaygroundOwner extends User {
