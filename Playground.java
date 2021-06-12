@@ -150,14 +150,18 @@ public class Playground {
 	 * function to display avalible hour in playground
 	 */
 	public void showData() {
+		System.out.print(name);
+		System.out.print(location);
+		System.out.print(size);
+		System.out.print(priceprh);
 		for (int i = 0; i < 1; i++) {
 			System.out.print("from ");
 			System.out.print(arr[i]);
 			System.out.print(" to ");
 			System.out.print(arr2[i] + "\n");
 		}
-		System.out.print(priceprh);
 	}
+
 
 	/**
 	 *   
