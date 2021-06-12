@@ -156,6 +156,7 @@ public class Playground {
 			System.out.print(" to ");
 			System.out.print(arr2[i] + "\n");
 		}
+		System.out.print(priceprh);
 	}
 
 	/**
